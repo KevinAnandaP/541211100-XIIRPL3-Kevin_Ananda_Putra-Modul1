@@ -7,15 +7,15 @@ const todos = [
 ];
 
 const students = [
-    { id: 1, name: 'Aufa', kelas: 12},
-    { id: 2, name: 'Bimo', kelas: 12},
-    { id: 3, name: 'Akbar', kelas:12},
+    { id: 1, name: 'Jeki', kelas: 12},
+    { id: 2, name: 'Aceng', kelas: 12},
+    { id: 3, name: 'Adal', kelas:12},
 ]
 
 const books = [
     { id: 1, title: 'Book1', author: "Kevin", category: "Novel"},
     { id: 2, title: 'Book2', author: "Zaneth", category: "Majalah"},
-    { id: 3, title: 'Book3', author: "Ayam", category: "Kamus"},
+    { id: 3, title: 'Book3', author: "Aceng", category: "Kamus"},
 ]
 
 const server = http.createServer((req, res) => {
